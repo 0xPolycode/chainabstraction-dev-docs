@@ -31,31 +31,31 @@ export default defineConfig({
           {
             name: 'Klaster',
             link: '/ecosystem/orchestration/klaster',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/4202e6c9c701474f50037b25ea0192be3083a88a/docs/pages/logo/klaster.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/klaster.svg',
           },
           {
             name: 'Agoric',
             link: '/ecosystem/orchestration/agoric',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/Agoric.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Agoric.png?raw=true',
           },
         ],
         [
           {
             name: 'Okto',
             link: '/ecosystem/orchestration/okto',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/okto.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/okto.png?raw=true',
           },
           {
             name: 'Orb Labs',
             link: '/ecosystem/orchestration/orb',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/orb_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/orb_dark.png?raw=true',
           },
         ],
         [
           {
             name: 'Aarc',
             link: '/ecosystem/orchestration/aarc',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/0340e5759ce85a2887eab4e06b63b3d1b9e945b6/docs/pages/logo/aarc.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/aarc.svg',
           },
         ],
       ],
@@ -68,31 +68,31 @@ export default defineConfig({
           {
             name: 'Biconomy',
             link: '/ecosystem/account-abstraction/biconomy',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/biconomy.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/biconomy.png?raw=true',
           },
           {
             name: 'Safe',
             link: '/ecosystem/account-abstraction/safe',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/safe.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/safe.png?raw=true',
           },
         ],
         [
           {
             name: 'Avocado Wallet',
             link: '/ecosystem/account-abstraction/avocado',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/avocado.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/avocado.png?raw=true',
           },
           {
             name: 'Kontos',
             link: '/ecosystem/account-abstraction/kontos',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/kontos.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/kontos.png?raw=true',
           },
         ],
         [
           {
             name: 'Pimlico',
             link: '/ecosystem/account-abstraction/pimlico',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/pimlico.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/pimlico.png?raw=true',
           },
         ]
       ],
@@ -105,24 +105,24 @@ export default defineConfig({
           {
             name: 'OneBalance',
             link: '/ecosystem/wallet-abstraction/onebalance',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/onebalance_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/onebalance_dark.png?raw=true',
           },
           {
             name: 'NEAR',
             link: '/ecosystem/wallet-abstraction/near',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/near.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/near.png?raw=true',
           },
         ],
         [
           {
             name: 'Particle Network',
             link: '/ecosystem/wallet-abstraction/particle',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/particle.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/particle.png?raw=true',
           },
           {
             name: 'XION',
             link: '/ecosystem/wallet-abstraction/xion',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/XION.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/XION.png?raw=true',
           },
         ],
       ],
@@ -135,96 +135,96 @@ export default defineConfig({
           {
             name: 'Catalyst',
             link: '/ecosystem/interoperability-bridging/catalyst',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/Catalyst.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Catalyst.png?raw=true',
           },
           {
             name: 'Socket',
             link: '/ecosystem/interoperability-bridging/socket',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/socket_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/socket_dark.png?raw=true',
           },
         ],
         [
           {
             name: 'UniswapX',
             link: '/ecosystem/dex-trading/uniswap',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/4fdc7d1b34c5419de10be0f34ad724f6c99d5157/docs/pages/logo/uniswap.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/uniswap.svg',
           },
           {
             name: 'Aori',
             link: '/ecosystem/innovation-hubs/aori',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/aori.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/aori.png?raw=true',
           },
         ],
         [
           {
             name: 'Suave',
             link: '/ecosystem/innovation-hubs/suave',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/flashbots.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/flashbots.png?raw=true',
           },
           {
             name: 'Across+',
             link: '/ecosystem/interoperability-bridging/across',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/Across_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Across_dark.png?raw=true',
           },
         ],
         [
           {
             name: 'Router Protocol',
             link: '/ecosystem/dex-trading/router',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/83523bf4ef8324625e7d6970531fb1334cf39862/docs/pages/logo/router.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
           },
           {
             name: 'Synapse',
             link: '/ecosystem/interoperability-bridging/synapse',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/synapse_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/synapse_dark.png?raw=true',
           },
         ],
         [
           {
             name: 'Orbiter',
             link: '/ecosystem/interoperability-bridging/orbiter',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/orbiter_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/orbiter_dark.png?raw=true',
           },
           {
             name: 'Arrakis',
             link: '/ecosystem/innovation-hubs/arrakis',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/af501b2d1281b5e10e845586dc21c81910112bb1/docs/pages/logo/arrakis.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/arrakis.svg',
           },
         ],
         [
           {
             name: 'CoW Swap',
             link: '/ecosystem/dex-trading/cow',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/CoW.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/CoW.png?raw=true',
           },
           {
             name: 'Jumper',
             link: '/ecosystem/interoperability-bridging/jumper',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/jumper.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/jumper.png?raw=true',
           },
         ],
         [
           {
             name: 'deBridge',
             link: '/ecosystem/interoperability-bridging/debridge',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/debridge_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/debridge_dark.png?raw=true',
           },
           {
             name: 'LIFI',
             link: '/ecosystem/interoperability-bridging/lifi',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/83523bf4ef8324625e7d6970531fb1334cf39862/docs/pages/logo/lifi.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/lifi.svg',
           },
         ],
         [
           {
             name: 'Squid',
             link: '/ecosystem/innovation-hubs/squid',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/squid.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/squid.png?raw=true',
           },
           {
             name: 'Anoma',
             link: '/ecosystem/innovation-hubs/anoma',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/anoma.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/anoma.png?raw=true',
           },
         ],
       ],
@@ -237,24 +237,24 @@ export default defineConfig({
           {
             name: 'Enso',
             link: '/ecosystem/solver-networks/enso',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/enso_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/enso_dark.png?raw=true',
           },
           {
             name: 'Khalani',
             link: '/ecosystem/solver-networks/khalani',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/Khalani.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Khalani.png?raw=true',
           },
         ],
         [
           {
             name: 'Aori',
             link: '/ecosystem/solver-networks/aori',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/aori.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/aori.png?raw=true',
           },
           {
             name: 'Valantis',
             link: '/ecosystem/solver-networks/valantis',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/valantis_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/valantis_dark.png?raw=true',
           },
         ],
       ],
@@ -267,19 +267,19 @@ export default defineConfig({
           {
             name: 'Wintermute',
             link: '/ecosystem/solvers/wintermute',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/wintermute.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/wintermute.png?raw=true',
           },
           {
             name: 'PropellerHeads',
             link: '/ecosystem/solvers/propellerheads',
-            image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/414d6fd12a5fd66154bd900edfcdb88d8d1abc64/docs/pages/logo/propeller_dark.svg',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/propeller_dark.svg',
           },
         ],
         [
           {
             name: 'Anera',
             link: '/ecosystem/solvers/anera',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/anera_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/anera_dark.png?raw=true',
           },
         ],
       ],
@@ -292,7 +292,7 @@ export default defineConfig({
           {
             name: 'Everclear',
             link: '/ecosystem/clearing/everclear',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/everclear.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/everclear.png?raw=true',
           },
         ],
       ],
@@ -305,19 +305,19 @@ export default defineConfig({
           {
             name: 'Halliday',
             link: '/ecosystem/commerce-automation/halliday',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/Halliday_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Halliday_dark.png?raw=true',
           },
           {
             name: 'Fun.xyz',
             link: '/ecosystem/commerce-automation/funxyz',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/fun_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/fun_dark.png?raw=true',
           },
         ],
         [
           {
             name: 'Decent',
             link: '/ecosystem/commerce-automation/decent',
-            image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/decent_dark.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/decent_dark.png?raw=true',
           },
         ],
       ],
@@ -335,44 +335,44 @@ export default defineConfig({
             {
               name: 'LayerZero',
               link: '/ecosystem/transport-layers/layerzero',
-              image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/layerzero_dark.png?raw=true',
+              image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/layerzero_dark.png?raw=true',
             },
             {
               name: 'Hyperlane',
               link: '/ecosystem/transport-layers/hyperlane',
-              image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/hyperlane_dark.png?raw=true',
+              image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/hyperlane_dark.png?raw=true',
             },
           ],
           [
             {
               name: 'Axelar',
               link: '/ecosystem/transport-layers/axelar',
-              image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/af501b2d1281b5e10e845586dc21c81910112bb1/docs/pages/logo/axelar.svg',
+              image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/axelar.svg',
             },
             {
               name: 'Chainlink',
               link: '/ecosystem/transport-layers/chainlink',
-              image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/3ab0b7187c6cb3ad19e4f6129b41b131b5289b90/docs/pages/logo/chainlink.svg',
+              image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/chainlink.svg',
             },
           ],
           [
             {
               name: 'Wormhole',
               link: '/ecosystem/transport-layers/wormhole',
-              image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/4fdc7d1b34c5419de10be0f34ad724f6c99d5157/docs/pages/logo/wormhole.svg',
+              image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/wormhole.svg',
             },
             ],
             [
               {
                 name: 'SEDA',
                 link: '/ecosystem/transport-layers/seda',
-                image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/83523bf4ef8324625e7d6970531fb1334cf39862/docs/pages/logo/seda.svg',
+                image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/seda.svg',
               },
           
               {
                 name: 'Polymer',
                 link: '/ecosystem/transport-layers/polymer',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/polymer.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/polymer.png?raw=true',
               },
             ],
           ],
@@ -385,60 +385,60 @@ export default defineConfig({
               {
                 name: 'Astria',
                 link: '/ecosystem/rollup-clusters/astria',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/astria_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/astria_dark.png?raw=true',
               },
               {
                 name: 'Nodekit',
                 link: '/ecosystem/rollup-clusters/nodekit',
-                image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/83523bf4ef8324625e7d6970531fb1334cf39862/docs/pages/logo/nodekit.svg',
+                image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/nodekit.svg',
               },
             ],
             [
               {
                 name: 'Radius',
                 link: '/ecosystem/rollup-clusters/radius',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/radius_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/radius_dark.png?raw=true',
               },
               {
                 name: 'Agglayer',
                 link: '/ecosystem/rollup-clusters/agglayer',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/agglayer.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/agglayer.png?raw=true',
               },
             ],
             [
               {
                 name: 'Metalayer',
                 link: '/ecosystem/rollup-clusters/metalayer',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/caldera_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/caldera_dark.png?raw=true',
               },
               {
                 name: 'Superchain',
                 link: '/ecosystem/rollup-clusters/superchain',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/optimism.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/optimism.png?raw=true',
               },
             ],
             [
               {
                 name: 'Elastic Chain',
                 link: '/ecosystem/rollup-clusters/elastic',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/elastic.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/elastic.png?raw=true',
               },
               {
                 name: 'Orbit',
                 link: '/ecosystem/rollup-clusters/orbit',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/orbit.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/orbit.png?raw=true',
               },
             ],
             [
               {
                 name: 'Initia',
                 link: '/ecosystem/rollup-clusters/initia',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/initia_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/initia_dark.png?raw=true',
               },
               {
                 name: 'Dymension',
                 link: '/ecosystem/rollup-clusters/dymension',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/dymension_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/dymension_dark.png?raw=true',
               },
             ],
           ],
@@ -451,24 +451,24 @@ export default defineConfig({
               {
                 name: 'Espresso',
                 link: '/ecosystem/fast-finality/espresso',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/espresso.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/espresso.png?raw=true',
               },
               {
                 name: 'Omni',
                 link: '/ecosystem/fast-finality/omni',
-                image: 'https://raw.githubusercontent.com/srpnt/CA_draft2/83523bf4ef8324625e7d6970531fb1334cf39862/docs/pages/logo/omni.svg',
+                image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/omni.svg',
               },
             ],
             [
               {
                 name: 'Nuffle',
                 link: '/ecosystem/fast-finality/nuffle',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/nuffle_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/nuffle_dark.png?raw=true',
               },
               {
                 name: 'Hyle',
                 link: '/ecosystem/fast-finality/hyle',
-                image: 'https://github.com/srpnt/CA_draft2/blob/main/docs/pages/logo/hyle_dark.png?raw=true',
+                image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/hyle_dark.png?raw=true',
               },
             ],
           ],
