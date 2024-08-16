@@ -1,0 +1,57 @@
+# LayerZero V2
+
+## What is LayerZero V2?
+
+LayerZero V2 is an open-source, immutable messaging protocol designed to facilitate the creation of omnichain, interoperable applications. It enables developers to send arbitrary data, external function calls, and tokens across chains while maintaining full control over their applications.
+
+### Overview
+
+LayerZero V2 revolutionizes cross-chain communication by separating message verification and execution, providing developers with more control over their application's security and execution. It offers improved handling, higher message throughput, and enhanced programmability.
+
+## Key Features
+
+- **Modular Security**: Customizable Security Stack with multiple Decentralized Verifier Networks (DVNs).
+- **Independent Message Execution**: Separation of verification and execution processes.
+- **Improved Message Handling**: Supports unordered message delivery for higher throughput.
+- **Enhanced Programmability**: Simplified interfaces and path-specific libraries.
+- **Chain Compatibility**: Improved design for broader blockchain support.
+
+# Core Components
+
+## LayerZero Endpoint
+
+- Non-upgradeable contract deployed on each chain.
+- Handles message sending, security configuration, and execution settings.
+
+## Security Stack
+
+- Customizable set of DVNs for message verification.
+- Configurable with X of Y of N authentication model.
+
+## Executors
+
+- Permissionless execution of verified messages.
+- Abstracts gas costs on destination chains.
+
+# Key Improvements
+
+## Message Handling
+
+- Unordered message delivery for higher throughput.
+- Improved nonce tracking with Lazy Inbound Nonce and Inbound Nonce.
+
+## Programmability
+
+- Simplified contract interfaces.
+- Path-specific libraries for customization.
+- Horizontal composability with sendCompose and lzCompose interfaces.
+
+## Chain Compatibility
+
+- Chain-agnostic design for uniform application architecture.
+- Flexible gas payment options.
+- Specific library defaults for each chain pathway.
+
+LayerZero V2 provides developers with a powerful, flexible, and secure platform for building omnichain applications, addressing key challenges in cross-chain communication and interoperability.
+
+Learn more at [LayerZero Documentation](https://docs.layerzero.network)

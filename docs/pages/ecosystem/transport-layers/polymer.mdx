@@ -1,0 +1,58 @@
+# Polymer
+
+## What is Polymer?
+
+Polymer is an interoperability hub built as a rollup on Ethereum, designed to connect various Ethereum rollups using the Inter-Blockchain Communication (IBC) protocol. It combines the Cosmos SDK with the OP Stack to create a unique solution for cross-rollup communication.
+
+### Overview
+
+Polymer revolutionizes interoperability for Ethereum rollups by bringing the robust IBC standard to the Ethereum ecosystem. It acts as a specialized rollup focused on providing secure and efficient cross-chain communication.
+
+## Key Features
+
+- **Ethereum Security**: Shares the same security foundation as other Ethereum rollups.
+- **Native IBC Interoperability**: Ports the IBC standard into the Ethereum ecosystem.
+- **Scalable Connectivity**: Specializes in providing low-cost, high-scalability interoperability services.
+
+# Technical Architecture
+
+## OP Stack Integration
+
+- Uses the OP Stack as the rollup framework.
+- Leverages the flexibility of the OP Stack to use custom execution engines.
+
+## Cosmos SDK as Execution Engine
+
+- Implements the Cosmos SDK as the execution layer within the OP Stack.
+- Utilizes the Application Blockchain Interface (ABCI) to connect the Cosmos SDK with the OP Stack.
+
+## Virtual IBC
+
+- Implements virtual IBC as the core application-specific component.
+- Enables Ethereum rollups to communicate via IBC without native implementation.
+
+# Key Components
+
+## Rollup Node
+
+- Derives L2 blocks from L1 data.
+- Can operate in verifying, participating, or sequencing modes.
+
+## Data Availability
+
+- Initially uses Ethereum L1, with plans to move to EigenDA.
+
+## Polymer Appchain
+
+- Built as a Cosmos SDK ABCI app within the OP Stack.
+- Specializes in interoperability functions.
+
+# Benefits
+
+- Provides a standardized interoperability solution for Ethereum rollups.
+- Enables seamless communication between Ethereum rollups and IBC-enabled chains.
+- Reduces the cost and complexity of cross-chain interactions.
+
+Polymer aims to become the central hub for interoperability in the Ethereum ecosystem, bridging the gap between Ethereum rollups and the broader blockchain landscape through IBC.
+
+Learn more at [Polymer Documentation](https://docs.polymerlabs.org/)

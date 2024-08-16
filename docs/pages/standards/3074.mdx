@@ -1,0 +1,26 @@
+# Understanding EIP-3074: Enhancing Ethereum's User Experience
+
+## What is EIP-3074?
+
+**EIP-3074** is a proposed Ethereum standard that introduces two new Ethereum Virtual Machine (EVM) opcodes: **AUTH** and **AUTHCALL**. These opcodes enable **Externally Owned Accounts (EOAs)** to delegate transaction execution to smart contracts, known as **invokers**, allowing them to perform complex operations on behalf of the EOA. This proposal aims to enhance the usability of EOAs by adding functionalities like transaction batching, gas sponsorship, and social recovery without requiring users to migrate to a smart contract wallet.
+
+## Key Features and Benefits
+
+- **Gas Sponsorship**: EIP-3074 allows third parties to pay gas fees on behalf of users, making transactions more accessible, especially for those who might not have ETH available.
+- **Bundled Transactions**: Users can batch multiple actions into a single transaction, reducing costs and simplifying the transaction process.
+- **Enhanced Security**: Although EIP-3074 brings powerful features, it also necessitates careful implementation of invoker contracts to ensure that unauthorized actions cannot be executed on behalf of the user.
+- **Ease of Use**: By enabling these features directly within EOAs, EIP-3074 simplifies the user experience by removing the need for multiple wallets or more complex account abstraction methods like those introduced by ERC-4337.
+
+## How EIP-3074 Works
+
+The **AUTH** opcode allows an EOA to authorize actions by signing a message, while **AUTHCALL** enables the execution of these actions by the invoker. The invoker then uses the signed message to execute transactions on behalf of the EOA. This framework allows EOAs to benefit from advanced features typically associated with smart contract wallets, without requiring a full migration.
+
+## Complementary to Account Abstraction
+
+EIP-3074 is not intended to replace more comprehensive account abstraction solutions like ERC-4337. Instead, it offers a simpler and more immediate enhancement for existing EOA users, while full account abstraction remains a longer-term goal. Together, these proposals can coexist, providing a range of options depending on the user's needs and the specific use cases.
+
+## Conclusion
+
+EIP-3074 represents a significant step toward improving the Ethereum user experience by enabling advanced functionalities within EOAs. While it does not completely replace the need for account abstraction, it provides a powerful toolset for users and developers alike, making Ethereum more accessible and user-friendly.
+
+For more detailed information, you can explore the [EIP-3074 proposal](https://eips.ethereum.org/EIPS/eip-3074).

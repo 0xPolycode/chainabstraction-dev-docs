@@ -1,0 +1,66 @@
+# SUAVE
+
+## What is SUAVE?
+
+SUAVE (Single Unifying Auction for Value Expression) is a decentralized platform for fast and private off-chain computation. It enables building blocks on other chains, defining private compute, storing private data, and accessing off-chain data.
+
+### Overview
+
+SUAVE revolutionizes blockchain interactions by providing a platform for MEV (Miner Extractable Value) infrastructure and confidential computation. It differs from existing blockchains through programmable privacy, credible off-chain computation, and faster block times.
+
+## Key Features
+
+- **Block Building**: Build blocks on other chains.
+- **Private Compute**: Define and execute private computations.
+- **Private Data Storage**: Store confidential data securely.
+- **Off-chain Data Access**: Interface with external data sources.
+- **MEV Infrastructure**: Integrate with existing MEV components or build new ones.
+
+# Architecture
+
+## Kettle
+
+The primary protocol actor, containing a modified Geth node (MEVM) and a confidential data store.
+
+## SUAVE Chain
+
+Runs public state, currently using Clique POA Consensus.
+
+## Confidential Compute Requests
+
+Used to access private state through a modified RPC in each Kettle.
+
+# Key Differences
+
+## Programmable Privacy
+
+Enables confidential computations and data handling.
+
+## Credible Off-chain Computation
+
+Allows for trustworthy computations outside the main blockchain.
+
+## Faster Block Time
+
+Offers improved transaction speed compared to Ethereum L1.
+
+# Applications (SUAPPs)
+
+## Smart Contracts on SUAVE
+
+Similar to dApps on Ethereum, with additional privacy features.
+
+## Confidential Transactions
+
+Transactions can contain data encrypted for specific actors.
+
+# Benefits
+
+- Enables sophisticated MEV strategies
+- Provides a platform for confidential blockchain computations
+- Allows for faster and more efficient block building
+- Supports integration with various MEV infrastructures
+
+SUAVE empowers developers and MEV searchers with a powerful platform for confidential computations and advanced MEV strategies, potentially reshaping the landscape of blockchain value extraction and privacy.
+
+Learn more at [SUAVE Documentation](https://suave-alpha.flashbots.net/)

@@ -1,0 +1,33 @@
+# Understanding ERC-7281: Sovereign Bridged Tokens
+
+## What is ERC-7281?
+
+### Definition and Core Concepts
+ERC-7281, also known as the "Sovereign Bridged Token" standard or xERC20, is a proposed Ethereum token standard designed to improve the security, interoperability, and user experience of tokens that are bridged across multiple blockchain networks. It introduces a framework where token issuers retain control over which bridges can mint or burn their tokens and set specific rate limits for these operations. This shift aims to prevent the security vulnerabilities often associated with bridges, such as those that were exploited in high-profile hacks.
+
+## Key Features and Benefits
+
+- **Enhanced Security:** ERC-7281 allows token issuers to specify which bridges can mint and burn tokens, significantly reducing the risk of unauthorized transactions and limiting exposure in case a bridge is compromised.
+- **Controlled Minting and Burning:** Issuers can set rate limits for bridges, controlling how many tokens can be minted or burned within a specific time frame, thus capping potential losses in the event of a hack.
+- **Unified Token Standard:** This standard eliminates the need for multiple versions of the same token across different networks, streamlining liquidity and improving cross-chain composability.
+- **Bridge Agnosticism:** ERC-7281 is designed to be compatible with any bridge that meets the standard's requirements, fostering competition among bridges to offer the best security and functionality.
+
+## How ERC-7281 Works
+
+### Technical Overview
+ERC-7281 introduces a minimal extension to the ERC-20 standard, focusing on minting and burning functions that can only be called by allowlisted bridges. Token issuers decide which bridges are allowed and can adjust permissions as needed, offering flexibility and enhanced control. 
+
+- **Mint/Burn Interface:** Bridges allowed by the token issuer can mint or burn tokens as needed, following the rules set by the issuer.
+- **Lockbox Setup:** For tokens already existing on certain chains, a Lockbox contract is used to make them compatible with ERC-7281. This setup ensures that tokens can be securely managed across multiple chains.
+- **Rate Limits:** Issuers can impose rate limits on bridges, which reset after a specified duration, further mitigating the risk of large-scale exploits.
+
+### Key Components and Mechanisms
+
+- **Token Sovereignty:** ERC-7281 shifts control over token minting and burning from bridges to token issuers, allowing them to respond swiftly to security threats by delisting compromised bridges.
+- **Open Competition Among Bridges:** By making the standard bridge-agnostic, ERC-7281 encourages bridges to compete on security and performance, benefiting the overall ecosystem.
+- **Simplified Cross-Chain Liquidity:** The standard ensures that all versions of a token across different chains are fungible with each other, reducing slippage and enhancing liquidity.
+
+## Summary
+ERC-7281 offers a robust solution to the challenges of bridging tokens across multiple blockchains by empowering token issuers with greater control and enhancing the security and efficiency of cross-chain transactions. This standard aims to foster a more secure and interoperable multichain ecosystem, benefiting both developers and users.
+
+For more detailed technical information, refer to the [ERC-7281 technical documentation](https://github.com/ethereum/EIPs/issues/7281).
