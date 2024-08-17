@@ -128,7 +128,7 @@ export default defineConfig({
       ],
     },
     {
-      name: 'Orderflow Sources & Auctions',
+      name: 'Interoperability and Bridging',
       height: 40,
       items: [
         [
@@ -145,33 +145,9 @@ export default defineConfig({
         ],
         [
           {
-            name: 'UniswapX',
-            link: '/ecosystem/dex-trading/uniswap',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/uniswap.svg',
-          },
-          {
-            name: 'Aori',
-            link: '/ecosystem/innovation-hubs/aori',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/aori.png?raw=true',
-          },
-        ],
-        [
-          {
-            name: 'Suave',
-            link: '/ecosystem/innovation-hubs/suave',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/flashbots.png?raw=true',
-          },
-          {
             name: 'Across+',
             link: '/ecosystem/interoperability-bridging/across',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Across_dark.png?raw=true',
-          },
-        ],
-        [
-          {
-            name: 'Router Protocol',
-            link: '/ecosystem/dex-trading/router',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
           },
           {
             name: 'Synapse',
@@ -184,18 +160,6 @@ export default defineConfig({
             name: 'Orbiter',
             link: '/ecosystem/interoperability-bridging/orbiter',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/orbiter_dark.png?raw=true',
-          },
-          {
-            name: 'Arrakis',
-            link: '/ecosystem/innovation-hubs/arrakis',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/arrakis.svg',
-          },
-        ],
-        [
-          {
-            name: 'CoW Swap',
-            link: '/ecosystem/dex-trading/cow',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/CoW.png?raw=true',
           },
           {
             name: 'Jumper',
@@ -215,46 +179,66 @@ export default defineConfig({
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/lifi.svg',
           },
         ],
+      ],
+    },
+    {
+      name: 'Decentralized Exchanges (DEX) and Trading',
+      height: 40,
+      items: [
         [
           {
-            name: 'Squid',
-            link: '/ecosystem/innovation-hubs/squid',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/squid.png?raw=true',
+            name: 'UniswapX',
+            link: '/ecosystem/dex-trading/uniswap',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/uniswap.svg',
           },
           {
-            name: 'Anoma',
-            link: '/ecosystem/innovation-hubs/anoma',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/anoma.png?raw=true',
+            name: 'Router Protocol',
+            link: '/ecosystem/dex-trading/router',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
+          },
+        ],
+        [
+          {
+            name: 'CoW Swap',
+            link: '/ecosystem/dex-trading/cow',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/CoW.png?raw=true',
           },
         ],
       ],
     },
     {
-      name: 'Solver Networks',
+      name: 'Web3 Innovation Hubs',
       height: 40,
       items: [
         [
           {
-            name: 'Enso',
-            link: '/ecosystem/solver-networks/enso',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/enso_dark.png?raw=true',
+            name: 'Aori',
+            link: '/ecosystem/innovation-hubs/aori',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/aori.png?raw=true',
           },
           {
-            name: 'Khalani',
-            link: '/ecosystem/solver-networks/khalani',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Khalani.png?raw=true',
+            name: 'Suave',
+            link: '/ecosystem/innovation-hubs/suave',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/flashbots.png?raw=true',
           },
         ],
         [
           {
-            name: 'Aori',
-            link: '/ecosystem/solver-networks/aori',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/aori.png?raw=true',
+            name: 'Arrakis',
+            link: '/ecosystem/innovation-hubs/arrakis',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/arrakis.svg',
           },
           {
-            name: 'Valantis',
-            link: '/ecosystem/solver-networks/valantis',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/valantis_dark.png?raw=true',
+            name: 'Squid',
+            link: '/ecosystem/innovation-hubs/squid',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/squid.png?raw=true',
+          },
+        ],
+        [
+          {
+            name: 'Anoma',
+            link: '/ecosystem/innovation-hubs/anoma',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/anoma.png?raw=true',
           },
         ],
       ],
@@ -584,7 +568,7 @@ export default defineConfig({
               ]
             },
             {
-              text: "Decentralized Exchanges (DEX) and Trading",
+              text: "Decentralized Exchanges and Trading",
               collapsed: true,
               items: [
                 { text: "UniswapX", link: "/ecosystem/dex-trading/uniswap" },
