@@ -1,0 +1,52 @@
+# Biconomy
+
+## What is Biconomy SDK?
+
+Biconomy SDK is an Account Abstraction toolkit that enables the simplest UX on your dApp, wallet, or appchain. Built on top of ERC 4337, it offers a full-stack solution for leveraging Smart Accounts Platform, Paymasters, and Bundlers.
+
+### Overview
+
+Biconomy SDK revolutionizes blockchain interaction by enhancing user experience through flexible and functional user accounts. It replaces traditional Externally Owned Accounts with Smart Contract accounts, powered by code instead of ECDSA, and provides a comprehensive suite of tools for developers to implement account abstraction.
+
+## Key Components
+
+- **UserOp**: A data structure describing a transaction to be sent on behalf of a user.
+- **Entry Point Contract**: The core smart contract for executing bundles of userOps.
+- **Smart Account**: A programmable user wallet for storing assets and validating transactions.
+- **Bundler**: Collects, bundles, and submits userOps to EVM networks.
+- **Paymaster**: A smart contract for sponsoring transaction fees on behalf of users.
+
+# Features
+
+## Smart Accounts Platform
+
+Biconomy's Modular Smart Account is ERC 4337-compliant and works with any Paymaster and Bundler service. It's signer agnostic, allowing various authorization methods.
+
+## Modules
+
+Modular architecture allows developers to easily extend smart account capabilities with programmable modules, enabling custom validation schemes and execution environments.
+
+## Bundler Service
+
+Tracks and bundles userOps from an alternative mempool, sending them to the Entry Point Contract for on-chain execution.
+
+## Paymaster Services
+
+### Sponsorship Paymaster
+
+Enables gasless transactions by sponsoring gas fees for users.
+
+### Token Paymaster
+
+Allows users to pay gas fees with ERC20 tokens across networks.
+
+# Developer Resources
+
+- Comprehensive documentation
+- Step-by-step tutorials
+- API integrations
+- Dashboard for paymaster management
+
+Biconomy SDK empowers developers to create user-friendly dApps with enhanced account functionality, simplified gas payments, and seamless transaction processing across the blockchain ecosystem.
+
+Learn more at [Biconomy Documentation](https://docs.biconomy.io)

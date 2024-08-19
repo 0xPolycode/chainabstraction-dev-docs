@@ -1,0 +1,65 @@
+# Astria
+
+## What is Astria?
+
+Astria is a decentralized sequencing layer designed to be shared among multiple rollups. It provides a unified platform for sequencing, data availability, and verification for various rollups in the Ethereum ecosystem.
+
+### Overview
+
+Astria revolutionizes the rollup infrastructure by offering a shared sequencing layer that decouples execution from consensus. This approach enhances flexibility for rollup developers and improves overall efficiency in the multi-rollup ecosystem.
+
+## Key Features
+
+- **Decentralized Sequencing**: Uses CometBFT for consensus among sequencer nodes.
+- **Lazy Sequencing**: Sequences and commits data, delaying execution until necessary.
+- **Data Availability**: Publishes sequenced data via Celestia.
+- **Flexible Rollup Integration**: Allows rollups to easily fetch and verify sequenced data.
+
+# Core Components
+
+## Astria Sequencer Network
+
+- Implements decentralized leader selection and single-slot finality.
+- Uses CometBFT (formerly Tendermint) as the consensus algorithm.
+- Supports IBC (inter-blockchain communication) capabilities.
+
+## Conductor
+
+- Works similarly to existing rollup "consensus nodes".
+- Obtains, verifies, and derives transactions for specific rollups.
+- Remains agnostic to rollup-specific transaction formats and state transition functions.
+
+## Sequencer Application Logic
+
+- Implements three main functions:
+ 1. Sequencing of rollup data
+ 2. Value transfers
+ 3. Validator set changes
+
+# Key Functionalities
+
+## Data Sequencing
+
+- Sequences arbitrary data for usage by multiple rollups.
+- Creates commitments to rollup data for each `rollup_id`.
+
+## Data Availability
+
+- Makes sequenced data available via Celestia.
+- Supports data availability sampling through light nodes.
+
+## Rollup Integration
+
+- Allows rollups to fetch only necessary data.
+- Enables verification of data commitments against sequencer finalization.
+
+# Benefits
+
+- Enhances scalability by sharing sequencing resources among multiple rollups.
+- Provides flexibility for rollup developers in terms of execution logic.
+- Improves efficiency through lazy sequencing and shared infrastructure.
+- Enables potential inter-rollup communication through IBC support.
+
+Astria aims to create a more efficient and scalable infrastructure for the multi-rollup ecosystem, offering shared sequencing services while maintaining flexibility for individual rollup designs.
+
+Learn more at [Astria Documentation](https://docs.astria.org/)

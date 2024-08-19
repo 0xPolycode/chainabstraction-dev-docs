@@ -1,0 +1,32 @@
+# Understanding ERC-7683: Cross-Chain Intents Standard
+
+## What is ERC-7683?
+
+### Definition and Core Concepts
+ERC-7683, known as the "Cross-Chain Intents Standard," is a proposed Ethereum standard designed to streamline and standardize cross-chain transactions. This standard focuses on simplifying how users interact with different blockchain networks by allowing them to express their desired outcomes, known as "intents," without needing to specify the exact steps or processes to achieve those outcomes. ERC-7683 is particularly aimed at improving cross-chain swaps and other transactions by enabling a shared filler network and a standardized order structure.
+
+## Key Features and Benefits
+
+- **Standardized Transaction Interface:** ERC-7683 defines standard structures like `CrossChainOrder` and `ResolvedCrossChainOrder`, which parse complex cross-chain orders into an executable format. This standardization facilitates interoperability between different blockchain systems.
+- **Shared Filler Network:** The standard enables the creation of a universal filler network where entities like MEV searchers, market makers, and other agents compete to fulfill cross-chain intents, optimizing efficiency and reducing costs.
+- **Automated Processing:** Users only need to specify their desired end-state, and the system automatically handles the complex cross-chain operations, improving user experience by reducing manual steps and costs.
+- **Secure and Reliable:** The standard includes mechanisms for secure fund custody, ensuring that funds are only released upon successful transaction completion, adding a layer of security to cross-chain operations.
+
+## How ERC-7683 Works
+
+### Technical Overview
+ERC-7683 operates on the concept of "intents," where users specify the desired end-state of a transaction. The process includes:
+
+- **Intent Signing:** Users sign an off-chain message defining their cross-chain order.
+- **Order Dissemination:** This order is broadcasted to a network of fillers who compete to execute the order.
+- **Execution:** The filler initiates the trade on the origin chain and completes it on the destination chain, ensuring the user's intent is fulfilled.
+
+### Key Components and Mechanisms
+
+- **Cross-Chain Order Structures:** The `CrossChainOrder` structure encapsulates all the necessary information for a cross-chain transaction, including origin and destination chain IDs, tokens involved, and execution deadlines.
+- **Settlement Contracts:** These contracts ensure that orders are settled securely and efficiently across different chains, abstracting the complexity of cross-chain security.
+
+## Summary
+ERC-7683 represents a significant step forward in enhancing cross-chain interoperability and simplifying the user experience for cross-chain transactions. By focusing on standardizing cross-chain intents and leveraging a universal filler network, this standard aims to make cross-chain operations more efficient, secure, and accessible.
+
+For more detailed information, you can review the [ERC-7683 proposal](https://eips.ethereum.org/EIPS/eip-7683).

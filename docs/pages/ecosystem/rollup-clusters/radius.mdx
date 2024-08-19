@@ -1,0 +1,45 @@
+# Radius
+
+## What is Radius?
+
+Radius is a coordination layer designed to enable rollups to achieve key decentralization properties: censorship resistance, liveness, and safety for fast finality. The primary goal of Radius is to create trustless rollup networks by leveraging cryptographic algorithms and enabling true rollup scalability, with a focus on a user-centric model that is essential for rollup success.
+
+### Overview
+
+The challenges within the current rollup ecosystem include censorship risks, harmful MEV (such as frontrunning and sandwiching), lack of finality guarantees on Ethereum, and the complexity of cross-rollup transactions due to the absence of a shared entity. As more rollups and appchains emerge, these issues are expected to intensify.
+
+Radius addresses these challenges by offering solutions that focus on preventing censorship and harmful MEV, ensuring fast finality with strong preconfirmations for inclusion guarantees on Ethereum, and simplifying cross-rollup interactions.
+
+## Key Features
+
+- **Trustless Sequencing Engine**: Utilizes cryptographic algorithms to prevent censorship and harmful MEV within encrypted mempools.
+  
+- **Based Sequencing**: Provides fast preconfirmations without relying on the trust of the rollup, allowing users to confidently create the next transactions.
+
+- **Shared Sequencing**: Unifies rollups through state synchronization, enabling atomic composability and providing seamless interoperability across different rollups.
+
+- **Autonomy in Sequencing**: Rollups have the flexibility to choose sequencing options that align with their values and goals, including the use of their own proposer while maintaining full control over sequencing rights.
+
+- **Selective Composability**: Allows rollups to select which other rollups to communicate with based on their composability needs, offering customized scalability with different execution environments. Rollups also retain the flexibility to opt out of selective composability if needed.
+
+- **User-Protected Revenue**: Enables rollups to generate revenue while protecting users through a divided block design. This includes:
+  - **Top-of-Block (ToB)**: Rollups can generate revenue with backrunning bundles based on the previous rollup state.
+  - **Bottom-of-Block (BoB)**: Incorporates a built-in trustless sequencing engine to secure transactions.
+
+### Other notable mentiones of Radius
+
+- **Enhanced Security**: Radius protects users from censorship and harmful Miner Extractable Value (MEV), including frontrunning and sandwiching.
+
+- **Guaranteed Finality**: Provides strong preconfirmations for transaction inclusion guarantees on Ethereum, ensuring fast finality.
+
+- **Seamless Interoperability**: Radius simplifies cross-rollup interactions, eliminating the complexities of cross-rollup bridging and offering a more straightforward user experience.
+
+## Key Components of Radius
+
+- **Trustless Sequencing Engine**: Uses advanced cryptographic algorithms to maintain the integrity of the transaction ordering process and protect against censorship and MEV.
+
+- **Based Sequencing**: Ensures fast transaction preconfirmations, allowing users to proceed with confidence without needing to trust the rollup's sequencing process.
+
+- **Shared Sequencing**: Facilitates atomic composability and state synchronization across rollups, enabling a cohesive and interoperable ecosystem.
+
+Learn more at [Radius Documentation](https://docs.theradius.xyz/)

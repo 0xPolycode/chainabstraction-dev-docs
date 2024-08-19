@@ -1,0 +1,27 @@
+# Understanding EIP-7702: Enhancing EOAs with Smart Contract Capabilities
+
+## What is EIP 7702?
+
+**EIP-7702** is a proposal that aims to extend the capabilities of Externally Owned Accounts (EOAs) on Ethereum by allowing them to temporarily adopt the functionality of smart contracts. This is achieved by enabling EOAs to set their own code during a transaction, effectively turning them into "smart contract-like" accounts for the duration of that transaction.
+
+## Key Features and Benefits
+
+- **Temporary Smart Contract Behavior**: EOAs can set and execute specific smart contract code during a transaction. After the transaction is completed, the code is removed, ensuring that the EOA returns to its original state.
+
+- **Transaction Bundling and Gas Sponsorship**: EIP-7702 supports transaction bundling and allows third parties to sponsor gas fees. This makes transactions more efficient and reduces the burden on users who may not hold ETH.
+
+- **Compatibility**: The proposal is fully compatible with existing account abstraction standards like ERC-4337, making it easier for developers to integrate with the current Ethereum infrastructure without significant changes.
+
+- **Flexibility and Security**: Users can specify the code they want to run during a transaction, providing flexibility while maintaining security. The proposal also includes mechanisms for revoking authorization and ensuring that transactions are secure.
+
+## How EIP-7702 Works
+
+EIP-7702 introduces a new transaction type called the "set code transaction," where the EOA can specify a smart contract code to execute during the transaction. The transaction payload includes an authorization list that dictates which code the EOA will execute. After the transaction, the code is removed from the EOA, returning it to its standard state.
+
+This approach allows EOAs to perform complex operations, like interacting with multiple contracts or executing multi-step processes in a single transaction, all while maintaining the simplicity and security of a traditional EOA.
+
+## Conclusion
+
+EIP-7702 is a significant step forward in enhancing the capabilities of EOAs on Ethereum, making them more versatile and capable of handling complex transactions without permanently converting to a smart contract wallet. By allowing temporary smart contract functionality, it bridges the gap between simple EOAs and more complex smart contract accounts, offering a flexible and secure solution for Ethereum users.
+
+For more detailed information, visit the [EIP-7702 overview](https://eip7702.io/).

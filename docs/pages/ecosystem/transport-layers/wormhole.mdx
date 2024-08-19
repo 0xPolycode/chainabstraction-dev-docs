@@ -1,0 +1,55 @@
+# Wormhole
+
+## What is Wormhole?
+
+Wormhole is a generic message passing protocol that enables communication between different blockchains. It's not a blockchain itself or a token bridge, but a foundational layer for cross-chain applications.
+
+### Overview
+
+Wormhole revolutionizes blockchain interoperability by providing a secure and efficient protocol for passing messages between different blockchain networks. It enables developers to build applications that leverage the advantages of multiple ecosystems.
+
+## Key Features
+
+- **Generic Message Passing**: Enables any type of data or instruction to be sent across chains.
+- **Cross-Chain Communication**: Facilitates interaction between different blockchain networks.
+- **Flexibility**: Supports various use cases from exchanges to governance and gaming.
+
+# Core Components
+
+## On-Chain Components
+
+- **Emitter**: Contract that publishes messages to the Core Contract.
+- **Wormhole Core Contract**: Primary contract observed by Guardians.
+- **Transaction Logs**: Blockchain-specific logs for message observation.
+
+## Off-Chain Components
+
+- **Guardian Network**: Validators that observe and validate cross-chain messages.
+- **Spy**: Daemon for observing and forwarding network traffic.
+- **API**: REST server for retrieving VAA and network details.
+- **VAAs**: Verifiable Action Approvals, signed attestations of observed messages.
+- **Relayers**: Processes that deliver VAAs to target chains.
+
+# Use Cases
+
+## Cross-Chain Exchange
+
+Build exchanges with access to liquidity from multiple chains.
+
+## Cross-Chain Governance
+
+Enable voting across different blockchain networks.
+
+## Cross-Chain Gaming
+
+Create games that span multiple blockchains for various functionalities.
+
+# Architecture
+
+- Utilizes a network of Guardians for message validation.
+- Employs VAAs for secure cross-chain message passing.
+- Supports both standard and specialized relayers for message delivery.
+
+Wormhole provides developers with a powerful toolkit for building truly cross-chain applications, enabling seamless interaction between different blockchain ecosystems.
+
+Learn more at [Wormhole Documentation](https://docs.wormhole.com)
