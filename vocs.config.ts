@@ -166,6 +166,13 @@ export default defineConfig({
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/lifi.svg',
           },
         ],
+        [
+          {
+            name: 'Concero',
+            link: '/ecosystem/interoperability-bridging/concero',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/concero.png?raw=true',
+          },
+        ],
       ],
     },
     {
@@ -557,7 +564,8 @@ export default defineConfig({
                 { text: "Orbiter", link: "/ecosystem/interoperability-bridging/orbiter" },
                 { text: "Jumper", link: "/ecosystem/interoperability-bridging/jumper" },
                 { text: "deBridge", link: "/ecosystem/interoperability-bridging/debridge" },
-                { text: "LiFi", link: "/ecosystem/interoperability-bridging/lifi" }
+                { text: "LiFi", link: "/ecosystem/interoperability-bridging/lifi" },
+                { text: "Concero", link: "/ecosystem/interoperability-bridging/concero" }
               ]
             },
             {
