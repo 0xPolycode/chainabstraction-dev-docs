@@ -586,7 +586,6 @@ export default defineConfig({
               items: [
                 { text: 'Enso', link: '/ecosystem/solver-networks/enso' },
                 { text: 'Khalani', link: '/ecosystem/solver-networks/khalani' },
-                { text: 'Aori', link: '/ecosystem/solver-networks/aori' },
                 { text: 'Valantis', link: '/ecosystem/solver-networks/valantis' },
               ],
             },
