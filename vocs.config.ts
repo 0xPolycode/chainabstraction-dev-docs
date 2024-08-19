@@ -1,26 +1,8 @@
 import { defineConfig } from 'vocs'
 
 export default defineConfig({
-  title: 'Chain Abstraction',
-
-  socials: [
-    {
-      icon: 'discord',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'github',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'warpcast',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'x',
-      link: 'https://google.com',
-    },
-  ],
+  title: 'Chain Abstraction Hub',
+  iconUrl: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/fd10cb35bfee98755b573c0e7845afcee238fbdb/docs/pages/logo/ca.svg', 
 
   sponsors: [
     {
@@ -32,11 +14,6 @@ export default defineConfig({
             name: 'Klaster',
             link: '/ecosystem/orchestration/klaster',
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/klaster.svg',
-          },
-          {
-            name: 'Agoric',
-            link: '/ecosystem/orchestration/agoric',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Agoric.png?raw=true',
           },
         ],
         [
@@ -56,6 +33,11 @@ export default defineConfig({
             name: 'Aarc',
             link: '/ecosystem/orchestration/aarc',
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/aarc.svg',
+          },
+          {
+            name: 'Agoric',
+            link: '/ecosystem/orchestration/agoric',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Agoric.png?raw=true',
           },
         ],
       ],
@@ -93,6 +75,11 @@ export default defineConfig({
             name: 'Pimlico',
             link: '/ecosystem/account-abstraction/pimlico',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/pimlico.png?raw=true',
+          },
+          {
+            name: 'ZeroDev',
+            link: '/ecosystem/account-abstraction/zerodev',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/zerodev.png?raw=true',
           },
         ]
       ],
@@ -498,26 +485,6 @@ export default defineConfig({
             ],
         },
         {
-          text: 'Guides',
-          collapsed: false,
-          items: [
-            {
-              text: 'Demo1',
-              link: '/FAQ',
-            },
-          ],
-        },
-        {
-          text: 'Chain Abstraction Masterclass',
-          collapsed: false,
-          items: [
-            {
-              text: 'Build your first chain abstracted app',
-              link: '/FAQ',
-            },
-          ],
-        },
-        {
           text: 'Ecosystem',
           collapsed: false,
           items: [
@@ -541,6 +508,7 @@ export default defineConfig({
                 { text: 'Avocado Wallet', link: '/ecosystem/account-abstraction/avocado' },
                 { text: 'Kontos', link: '/ecosystem/account-abstraction/kontos' },
                 { text: 'Pimlico', link: '/ecosystem/account-abstraction/pimlico' },
+                { text: 'ZeroDev', link: '/ecosystem/account-abstraction/zerodev' },
               ],
             },
             {
