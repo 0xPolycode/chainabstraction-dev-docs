@@ -14,11 +14,6 @@ export default defineConfig({
             link: '/ecosystem/orchestration/klaster',
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/klaster.svg',
           },
-          {
-            name: 'Agoric',
-            link: '/ecosystem/orchestration/agoric',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Agoric.png?raw=true',
-          },
         ],
         [
           {
@@ -37,6 +32,11 @@ export default defineConfig({
             name: 'Aarc',
             link: '/ecosystem/orchestration/aarc',
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/aarc.svg',
+          },
+          {
+            name: 'Agoric',
+            link: '/ecosystem/orchestration/agoric',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Agoric.png?raw=true',
           },
         ],
       ],
