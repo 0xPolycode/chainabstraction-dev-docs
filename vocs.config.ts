@@ -3,25 +3,6 @@ import { defineConfig } from 'vocs'
 export default defineConfig({
   title: 'Chain Abstraction',
 
-  socials: [
-    {
-      icon: 'discord',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'github',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'warpcast',
-      link: 'https://google.com',
-    },
-    {
-      icon: 'x',
-      link: 'https://google.com',
-    },
-  ],
-
   sponsors: [
     {
       name: 'Orchestration',
@@ -93,6 +74,11 @@ export default defineConfig({
             name: 'Pimlico',
             link: '/ecosystem/account-abstraction/pimlico',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/pimlico.png?raw=true',
+          },
+          {
+            name: 'ZeroDev',
+            link: '/ecosystem/account-abstraction/zerodev',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/zerodev.png?raw=true',
           },
         ]
       ],
@@ -496,26 +482,6 @@ export default defineConfig({
                 link: '/standards/7702',
               },
             ],
-        },
-        {
-          text: 'Guides',
-          collapsed: false,
-          items: [
-            {
-              text: 'Demo1',
-              link: '/FAQ',
-            },
-          ],
-        },
-        {
-          text: 'Chain Abstraction Masterclass',
-          collapsed: false,
-          items: [
-            {
-              text: 'Build your first chain abstracted app',
-              link: '/FAQ',
-            },
-          ],
         },
         {
           text: 'Ecosystem',
