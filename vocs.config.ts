@@ -507,6 +507,7 @@ export default defineConfig({
                 { text: 'Avocado Wallet', link: '/ecosystem/account-abstraction/avocado' },
                 { text: 'Kontos', link: '/ecosystem/account-abstraction/kontos' },
                 { text: 'Pimlico', link: '/ecosystem/account-abstraction/pimlico' },
+                { text: 'ZeroDev', link: '/ecosystem/account-abstraction/zerodev' },
               ],
             },
             {
