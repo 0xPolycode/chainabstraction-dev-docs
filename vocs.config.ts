@@ -96,7 +96,7 @@ export default defineConfig({
           },{
             name: 'Rhinestone',
             link: '/ecosystem/wallet-abstraction/rhinestone',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/rhinestone.png?raw=true',
+            image: 'https://raw.githubusercontent.com/0xPolycode/chainabstraction-dev-docs/0e6ed68271b494308be9868ef7b1db49fffb519a/docs/pages/logo/rhinestone.png',
           },
         ],
         [
