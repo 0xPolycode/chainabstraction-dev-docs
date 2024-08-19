@@ -231,6 +231,31 @@ export default defineConfig({
       ],
     },
     {
+      name: 'Solver Networks',
+      height: 40,
+      items: [
+        [
+          {
+            name: 'Enso',
+            link: '/ecosystem/solver-networks/enso',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/enso_dark.png?raw=true',
+          },
+          {
+            name: 'Khalani',
+            link: '/ecosystem/solver-networks/khalani',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/Khalani_dark.png?raw=true',
+          },
+        ],
+        [
+          {
+            name: 'Valantis',
+            link: '/ecosystem/solver-networks/valantis',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/valantis_dark.png?raw=true',
+          },
+        ],
+      ],
+    },
+    {
       name: 'Solvers',
       height: 40,
       items: [
