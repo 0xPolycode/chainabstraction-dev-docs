@@ -1,8 +1,8 @@
-ChainAbstraction.io
+ChainAbstraction.dev
 
 -- Overview
 
-Welcome to the GitHub repository for **ChainAbstraction.io**, your comprehensive resource for everything related to chain abstraction in the blockchain ecosystem. This project aggregates information from leading projects and provides a detailed overview of the technologies and innovations that are shaping the future of interoperability, scalability, and user experience in decentralized networks.
+Welcome to the GitHub repository for **ChainAbstraction.dev**, your comprehensive resource for everything related to chain abstraction in the blockchain ecosystem. This project aggregates information from leading projects and provides a detailed overview of the technologies and innovations that are shaping the future of interoperability, scalability, and user experience in decentralized networks.
 
 ### Key Features
 
