@@ -93,25 +93,31 @@ export default defineConfig({
             name: 'OneBalance',
             link: '/ecosystem/wallet-abstraction/onebalance',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/onebalance_dark.png?raw=true',
+          },{
+            name: 'Rhinestone',
+            link: '/ecosystem/wallet-abstraction/rhinestone',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/rhinestone.png?raw=true',
           },
+        ],
+        [
           {
             name: 'NEAR',
             link: '/ecosystem/wallet-abstraction/near',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/near.png?raw=true',
           },
-        ],
-        [
           {
             name: 'Particle Network',
             link: '/ecosystem/wallet-abstraction/particle',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/particle.png?raw=true',
           },
+        ],
+        [
           {
             name: 'XION',
             link: '/ecosystem/wallet-abstraction/xion',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/XION.png?raw=true',
           },
-        ],
+        ]
       ],
     },
     {
@@ -514,6 +520,10 @@ export default defineConfig({
                 text: 'EIP-7702',
                 link: '/standards/7702',
               },
+              {
+                text: 'ERC-7579',
+                link: '/standards/7579',
+              },
             ],
         },
         {
@@ -548,6 +558,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'OneBalance', link: '/ecosystem/wallet-abstraction/onebalance' },
+                { text: 'Rhinestone', link: '/ecosystem/wallet-abstraction/rhinestone' },
                 { text: 'NEAR', link: '/ecosystem/wallet-abstraction/near' },
                 { text: 'Particle Network', link: '/ecosystem/wallet-abstraction/particle' },
                 { text: 'XION', link: '/ecosystem/wallet-abstraction/xion' },
