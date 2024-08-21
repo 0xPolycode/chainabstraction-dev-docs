@@ -389,7 +389,7 @@ export default defineConfig({
             },
             {
               name: 'Router Protocol',
-              link: '/ecosystem/dex-trading/router',
+              link: '/ecosystem/transport-layers/router',
               image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
             },
             ],
