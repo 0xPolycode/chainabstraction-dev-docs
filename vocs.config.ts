@@ -81,6 +81,13 @@ export default defineConfig({
             link: '/ecosystem/account-abstraction/zerodev',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/zerodev.png?raw=true',
           },
+        ],
+        [
+          {
+            name: 'Ditto Network',
+            link: '/ecosystem/account-abstraction/ditto',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/4904fca2dba1340b97f89252584bcf60c556144b/docs/pages/logo/ditto.png',
+          },
         ]
       ],
     },
@@ -96,7 +103,7 @@ export default defineConfig({
           },{
             name: 'Rhinestone',
             link: '/ecosystem/wallet-abstraction/rhinestone',
-            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/rhinestone.png?raw=true',
+            image: 'https://raw.githubusercontent.com/0xPolycode/chainabstraction-dev-docs/0e6ed68271b494308be9868ef7b1db49fffb519a/docs/pages/logo/rhinestone.png',
           },
         ],
         [
@@ -116,6 +123,18 @@ export default defineConfig({
             name: 'XION',
             link: '/ecosystem/wallet-abstraction/xion',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/XION.png?raw=true',
+          },
+          {
+            name: 'Dynamic',
+            link: '/ecosystem/wallet-abstraction/dynamic',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bc1c60860ab166252ac6d390f242ff6e40c4127/docs/pages/logo/dynamic.svg',
+          },
+        ],
+        [
+          {
+            name: 'Arcana',
+            link: '/ecosystem/wallet-abstraction/arcana',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/b67215fe17fb3617ae0f89ce4f0e16f00291e145/docs/pages/logo/arcana.png',
           },
         ]
       ],
@@ -178,6 +197,11 @@ export default defineConfig({
             link: '/ecosystem/interoperability-bridging/concero',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/concero.png?raw=true',
           },
+          {
+            name: 'Nitro',
+            link: '/ecosystem/interoperability-bridging/nitro',
+            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/bb0e36630f45d79b30e6a7f89a10acc05f0484d3/docs/pages/logo/nitro.svg',
+          },
         ],
       ],
     },
@@ -191,13 +215,6 @@ export default defineConfig({
             link: '/ecosystem/dex-trading/uniswap',
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/uniswap.svg',
           },
-          {
-            name: 'Router Protocol',
-            link: '/ecosystem/dex-trading/router',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
-          },
-        ],
-        [
           {
             name: 'CoW Swap',
             link: '/ecosystem/dex-trading/cow',
@@ -369,6 +386,11 @@ export default defineConfig({
               name: 'Wormhole',
               link: '/ecosystem/transport-layers/wormhole',
               image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/wormhole.svg',
+            },
+            {
+              name: 'Router Protocol',
+              link: '/ecosystem/transport-layers/router',
+              image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
             },
             ],
             [
@@ -551,6 +573,7 @@ export default defineConfig({
                 { text: 'Kontos', link: '/ecosystem/account-abstraction/kontos' },
                 { text: 'Pimlico', link: '/ecosystem/account-abstraction/pimlico' },
                 { text: 'ZeroDev', link: '/ecosystem/account-abstraction/zerodev' },
+                { text: 'Ditto Network', link: '/ecosystem/account-abstraction/ditto' },
               ],
             },
             {
@@ -562,6 +585,8 @@ export default defineConfig({
                 { text: 'NEAR', link: '/ecosystem/wallet-abstraction/near' },
                 { text: 'Particle Network', link: '/ecosystem/wallet-abstraction/particle' },
                 { text: 'XION', link: '/ecosystem/wallet-abstraction/xion' },
+                { text: 'Dynamic', link: '/ecosystem/wallet-abstraction/dynamic' },
+                { text: 'Arcana', link: '/ecosystem/wallet-abstraction/arcana' },
               ],
             },
             {
@@ -576,7 +601,8 @@ export default defineConfig({
                 { text: "Jumper", link: "/ecosystem/interoperability-bridging/jumper" },
                 { text: "deBridge", link: "/ecosystem/interoperability-bridging/debridge" },
                 { text: "LiFi", link: "/ecosystem/interoperability-bridging/lifi" },
-                { text: "Concero", link: "/ecosystem/interoperability-bridging/concero" }
+                { text: "Concero", link: "/ecosystem/interoperability-bridging/concero" },
+                { text: "Nitro", link: "/ecosystem/interoperability-bridging/nitro" }
               ]
             },
             {
@@ -584,7 +610,6 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: "UniswapX", link: "/ecosystem/dex-trading/uniswap" },
-                { text: "Router Protocol", link: "/ecosystem/dex-trading/router" },
                 { text: "CoW Swap", link: "/ecosystem/dex-trading/cow" }
               ]
             },
@@ -642,6 +667,7 @@ export default defineConfig({
                 { text: 'Axelar', link: '/ecosystem/transport-layers/axelar' },
                 { text: 'Chainlink', link: '/ecosystem/transport-layers/chainlink' },
                 { text: 'Wormhole', link: '/ecosystem/transport-layers/wormhole' },
+                { text: "Router Protocol", link: "/ecosystem/dex-trading/router" },
                 { text: 'SEDA', link: '/ecosystem/transport-layers/seda' },
                 { text: 'Polymer', link: '/ecosystem/transport-layers/polymer' },
               ],
