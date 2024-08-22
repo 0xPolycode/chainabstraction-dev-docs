@@ -1,8 +1,19 @@
 import { defineConfig } from 'vocs'
 
 export default defineConfig({
+  head: [
+    {
+      tag: 'script',
+      attrs: {
+        defer: true,
+        'data-domain': 'chainabstraction.dev',
+        src: 'https://plausible.io/js/script.js'
+      }
+    }
+  ],
   title: 'Chain Abstraction Hub',
   iconUrl: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/fd10cb35bfee98755b573c0e7845afcee238fbdb/docs/pages/logo/ca.svg', 
+
 
   sponsors: [
     {
@@ -389,7 +400,7 @@ export default defineConfig({
             },
             {
               name: 'Router Protocol',
-              link: '/ecosystem/transport-layers/router',
+              link: '/ecosystem/dex-trading/router',
               image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/9bdd412372bfd592cfcb8532cc3d4c51600cecb4/docs/pages/logo/router.svg',
             },
             ],
@@ -667,7 +678,7 @@ export default defineConfig({
                 { text: 'Axelar', link: '/ecosystem/transport-layers/axelar' },
                 { text: 'Chainlink', link: '/ecosystem/transport-layers/chainlink' },
                 { text: 'Wormhole', link: '/ecosystem/transport-layers/wormhole' },
-                { text: "Router Protocol", link: "/ecosystem/dex-trading/router" },
+                { text: "Router Protocol", link: "/ecosystem/transport-layers/router" },
                 { text: 'SEDA', link: '/ecosystem/transport-layers/seda' },
                 { text: 'Polymer', link: '/ecosystem/transport-layers/polymer' },
               ],
