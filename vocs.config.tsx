@@ -1,11 +1,7 @@
 import { defineConfig } from 'vocs'
 
 export default defineConfig({
-  head: ( 
-    <>
-      <script defer data-domain="www.chainabstraction.dev" src="https://plausible.io/js/script.js"></script>
-    </>
-  ),
+
   title: 'Chain Abstraction Hub',
   iconUrl: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/fd10cb35bfee98755b573c0e7845afcee238fbdb/docs/pages/logo/ca.svg', 
 
