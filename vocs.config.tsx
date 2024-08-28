@@ -7,7 +7,14 @@ export default defineConfig({
   head() {
     return (
       <>
-        <script defer data-domain="chainabstraction.dev" src="https://plausible.io/js/script.js"></script>
+        <script>
+          var script = document.createElement('script')
+          script.async=true
+          script.defer=true
+          script.dataset.domain=window.location.host // Set script data-domain dynamically
+          script.src = "https://plausible.io/js/plausible.js"
+          document.head.append(script)
+        </script>
       </>
     )
   },
