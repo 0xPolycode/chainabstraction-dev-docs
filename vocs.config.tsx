@@ -3,9 +3,16 @@ import { defineConfig } from 'vocs'
 export default defineConfig({
 
   title: 'Chain Abstraction Hub',
+  
+  head() {
+    return (
+      <>
+        <script defer data-domain="chainabstraction.dev" src="https://plausible.io/js/script.js"></script>
+      </>
+    )
+  },
   iconUrl: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/fd10cb35bfee98755b573c0e7845afcee238fbdb/docs/pages/logo/ca.svg', 
-
-
+  
   sponsors: [
     {
       name: 'Orchestration',
