@@ -217,7 +217,7 @@ export default defineConfig({
           {
             name: 'Smoke',
             link: '/ecosystem/interoperability-bridging/smoke',
-            image: 'https://raw.githubusercontent.com/0xPolycode/chainabstraction-dev-docs/main/docs/pages/logo/smoke_logo_dark.png',
+            image: 'https://raw.githubusercontent.com/0xPolycode/chainabstraction-dev-docs/main/docs/pages/logo/smoke_dark.png',
           },
         ],
       ],
