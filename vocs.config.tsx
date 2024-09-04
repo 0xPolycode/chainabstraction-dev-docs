@@ -213,6 +213,13 @@ export default defineConfig({
             image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/bb0e36630f45d79b30e6a7f89a10acc05f0484d3/docs/pages/logo/nitro.svg',
           },
         ],
+        [
+          {
+            name: 'Smoke',
+            link: '/ecosystem/interoperability-bridging/smoke',
+            image: 'https://raw.githubusercontent.com/0xPolycode/chainabstraction-dev-docs/bcd9fb631291136c436f24ab5028ec49e38877ee/docs/pages/logo/smoke_logo.png',
+          },
+        ],
       ],
     },
     {
@@ -612,7 +619,8 @@ export default defineConfig({
                 { text: "deBridge", link: "/ecosystem/interoperability-bridging/debridge" },
                 { text: "LiFi", link: "/ecosystem/interoperability-bridging/lifi" },
                 { text: "Concero", link: "/ecosystem/interoperability-bridging/concero" },
-                { text: "Nitro", link: "/ecosystem/interoperability-bridging/nitro" }
+                { text: "Nitro", link: "/ecosystem/interoperability-bridging/nitro" },
+                { text: "Smoke", link: "/ecosystem/interoperability-bridging/smoke" },
               ]
             },
             {
