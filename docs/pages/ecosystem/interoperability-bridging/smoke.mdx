@@ -1,0 +1,48 @@
+# Smoke
+
+## What is Smoke?
+
+Smoke is a cross-chain credit card protocol that allows users to deposit some collateral get credit and instantly spend on any chain out there. The user can repay their credit card bill after using the dApp they intended to use, or by the end of the day, week, month or year. It is built on a cross-chain peer to peer lending protocol. 
+
+Smoke is a novel approach to solve the cross-chain UX fragmentation problem. It brings the well known credit card experience on-chain. 
+
+## Key Features
+
+- **Gas Abstraction**: Smoke offers gasless borrow for both EOAs & SCWs out of the box along with a feature called Autogas. Autogas periodically checks and refills your wallet as soon as its balance goes below a certain threshold. 
+- **Instant Spends**: Users can spend at the speed of the blockchain they are on with an instant off-chain approval. 
+- **Fully Secure**: Despite being instant, Smoke doesn't trade-off security, the system secures both the issuers and the end users using robust cross-chain messaging underneath. Built on LayerZero. 
+- **Low Cost**: Borrowing on-chain is extremely cheap, and by using tx-batching Smoke aims to make repayments very low cost as well.
+- **Multiple Wallets**: The users can add multiple wallets to be able to spend from their cards. 
+
+# How Does It Work
+
+## Deposit, Spend(Borrow) & Withdraw
+
+1. **Issuers issue Credit-Cards**: Users can buy credit card NFTs from the issuers and deposit collateral in supported tokens (wstETH, ETH, for now). 
+2. **Off-Chain Accounting**: Issuers can see that users have enough collateral locked in their card on multiple chains and will always be watching for more deposits.
+3. **Permissioned Spends and Withdraws**: The users are required to get the issuer's permission everytime they spend on other chains or want to withdraw their collateral, thus the issuer can be sure that the user cannot borrow above limits or withdraw at the same time they borrow. 
+4. **Permissionless Exits**: If an issuer is refusing to approve spends or withdraws, the users can exit the system by using cross-chain messages to prove that they are withdrawing within the preset LTV limits. 
+
+## Defaults, Loan Parameters & Liquidations
+
+1. **Liquidations**: If the user borrows over the limit and does not pay back, the issuer can liquidate the user by proving that the user defaulted on their debt if the debt is above the liquidation threshold. 
+2. **Loan Parameters**: The issuer is allowed to change the interest rate of the loans with a delay. But the LTV(Loan to Value) and Liquidation Threshold parameters are immutable. 
+
+# Products
+
+## Smoke Credit Cards
+
+These are the credit card NFTs end users can mint on one of the chains, like Base, to deposit some collateral and spend anywhere instantly. 
+
+## Smoke Protocol
+
+The protocol allows anyone to be able to issuer credit cards to users to tap into the juicy cross-chain lending APRs. These credit card NFTs can be issuer-branded and have their own loan parameters. 
+
+# Benefits
+
+- Allows users to spend money without any worries. 
+- Solves the cross-chain UX problem the users are facing today. 
+- Enables instant spends on all the supported chains. 
+- Offers easy intergration for dApp developers. 
+
+Learn more at [Smoke Community](https://smoke.money)
