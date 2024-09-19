@@ -13,6 +13,8 @@ export default defineConfig({
     )
   },
   iconUrl: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/fd10cb35bfee98755b573c0e7845afcee238fbdb/docs/pages/logo/ca.svg', 
+  ogImageUrl: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/chad.png?raw=true',
+
   
   sponsors: [
     {
