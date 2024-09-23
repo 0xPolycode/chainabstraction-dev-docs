@@ -103,7 +103,7 @@ export default defineConfig({
           {
             name: 'Etherspot',
             link: '/ecosystem/account-abstraction/etherspot',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/etherspot.png?raw=true',
+            image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/etherspot.png?raw=true',
           }
         ]
       ],
