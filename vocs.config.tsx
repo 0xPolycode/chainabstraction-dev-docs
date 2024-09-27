@@ -96,15 +96,10 @@ export default defineConfig({
         ],
         [
           {
-            name: 'Ditto Network',
-            link: '/ecosystem/account-abstraction/ditto',
-            image: 'https://raw.githubusercontent.com/srpnt/chainabstraction-dev-docs/4904fca2dba1340b97f89252584bcf60c556144b/docs/pages/logo/ditto.png',
-          },
-          {
             name: 'Etherspot',
             link: '/ecosystem/account-abstraction/etherspot',
             image: 'https://github.com/srpnt/chainabstraction-dev-docs/blob/main/docs/pages/logo/etherspot.png?raw=true',
-          }
+          },
         ]
       ],
     },
@@ -597,7 +592,6 @@ export default defineConfig({
                 { text: 'Kontos', link: '/ecosystem/account-abstraction/kontos' },
                 { text: 'Pimlico', link: '/ecosystem/account-abstraction/pimlico' },
                 { text: 'ZeroDev', link: '/ecosystem/account-abstraction/zerodev' },
-                { text: 'Ditto Network', link: '/ecosystem/account-abstraction/ditto' },
                 { text: 'Etherspot', link: '/ecosystem/account-abstraction/etherspot' },
               ],
             },
